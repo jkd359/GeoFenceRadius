@@ -1,4 +1,4 @@
-An extremely simple geo-fencing app designed for demo purposes only. The code is really bad!
+An extremely simple geo-fencing app designed for demo purposes only. 
 
 Features:
 - Long-press to add a new geo-fence
