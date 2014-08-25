@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C100DEF015DD3797009ABB66 /* LocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C100DEEF15DD3797009ABB66 /* LocationController.m */; };
+		C10E819415E28DAD00B4507F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C10E819215E28DAD00B4507F /* Model.xcdatamodeld */; };
+		C10E819715E28E3400B4507F /* StoredLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = C10E819615E28E3400B4507F /* StoredLocation.m */; };
+		C10E819915E28ED200B4507F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10E819815E28ED200B4507F /* CoreData.framework */; };
+		C13B218E15DD9A47005E428D /* MyCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = C13B218D15DD9A47005E428D /* MyCircle.m */; };
+		C140FB8015DE9BC9004C5419 /* ID.png in Resources */ = {isa = PBXBuildFile; fileRef = C140FB7E15DE9BC9004C5419 /* ID.png */; };
+		C140FB8115DE9BC9004C5419 /* ID@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C140FB7F15DE9BC9004C5419 /* ID@2x.png */; };
+		C14DF56D15DD8BDE001D3C53 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C14DF56A15DD8BDE001D3C53 /* Default@2x.png */; };
+		C14DF56E15DD8BDE001D3C53 /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = C14DF56B15DD8BDE001D3C53 /* Default~ipad.png */; };
+		C14DF57115DD8D5B001D3C53 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C14DF57015DD8D5B001D3C53 /* Default.png */; };
+		C150087B15E424E5005BF9C0 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = C150087A15E424E4005BF9C0 /* search.png */; };
+		C150087D15E42501005BF9C0 /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C150087C15E42501005BF9C0 /* search@2x.png */; };
+		C188375915E56F78002BDD6F /* FullStar.png in Resources */ = {isa = PBXBuildFile; fileRef = C188375815E56F78002BDD6F /* FullStar.png */; };
+		CBA9F15312F76264005BB61E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA9F15212F76264005BB61E /* UIKit.framework */; };
+		CBA9F15512F76264005BB61E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA9F15412F76264005BB61E /* Foundation.framework */; };
+		CBA9F15712F76264005BB61E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA9F15612F76264005BB61E /* CoreGraphics.framework */; };
+		CBA9F15D12F76264005BB61E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBA9F15B12F76264005BB61E /* InfoPlist.strings */; };
+		CBA9F16012F76264005BB61E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA9F15F12F76264005BB61E /* main.m */; };
+		CBA9F16312F76264005BB61E /* RegionsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA9F16212F76264005BB61E /* RegionsAppDelegate.m */; };
+		CBA9F16612F76264005BB61E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBA9F16412F76264005BB61E /* MainWindow.xib */; };
+		CBA9F16912F76264005BB61E /* RegionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA9F16812F76264005BB61E /* RegionsViewController.m */; };
+		CBA9F16C12F76264005BB61E /* RegionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBA9F16A12F76264005BB61E /* RegionsViewController.xib */; };
+		CBA9F17312F7628B005BB61E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA9F17212F7628B005BB61E /* CoreLocation.framework */; };
+		CBA9F17512F76292005BB61E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA9F17412F76292005BB61E /* MapKit.framework */; };
+		CBA9F17D12F763D8005BB61E /* RegionAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA9F17A12F763D8005BB61E /* RegionAnnotation.m */; };
+		CBA9F17E12F763D8005BB61E /* RegionAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA9F17C12F763D8005BB61E /* RegionAnnotationView.m */; };
+		CBBE14EC12F914B70065507D /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBE14E212F914B70065507D /* Icon-72.png */; };
+		CBBE14ED12F914B70065507D /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBE14E312F914B70065507D /* Icon-Small-50.png */; };
+		CBBE14EE12F914B70065507D /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBE14E412F914B70065507D /* Icon-Small.png */; };
+		CBBE14EF12F914B70065507D /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBE14E512F914B70065507D /* Icon-Small@2x.png */; };
+		CBBE14F012F914B70065507D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBE14E612F914B70065507D /* Icon.png */; };
+		CBBE14F112F914B70065507D /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBE14E712F914B70065507D /* Icon@2x.png */; };
+		CBBE14F212F914B70065507D /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = CBBE14E812F914B70065507D /* iTunesArtwork */; };
+		CBBE14F312F914B70065507D /* RemoveRegion.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBE14E912F914B70065507D /* RemoveRegion.png */; };
+		CBBE14F412F914B70065507D /* RemoveRegion@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBE14EA12F914B70065507D /* RemoveRegion@2x.png */; };
+		CBBF867312FB498900508BCE /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = CBBF867212FB498900508BCE /* ReadMe.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C100DEEE15DD3797009ABB66 /* LocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationController.h; path = ../LocationController.h; sourceTree = "<group>"; };
+		C100DEEF15DD3797009ABB66 /* LocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationController.m; path = ../LocationController.m; sourceTree = "<group>"; };
+		C10E819315E28DAD00B4507F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		C10E819515E28E3400B4507F /* StoredLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoredLocation.h; sourceTree = "<group>"; };
+		C10E819615E28E3400B4507F /* StoredLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoredLocation.m; sourceTree = "<group>"; };
+		C10E819815E28ED200B4507F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C13B218C15DD9A47005E428D /* MyCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCircle.h; sourceTree = "<group>"; };
+		C13B218D15DD9A47005E428D /* MyCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCircle.m; sourceTree = "<group>"; };
+		C140FB7E15DE9BC9004C5419 /* ID.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ID.png; path = Images/ID.png; sourceTree = "<group>"; };
+		C140FB7F15DE9BC9004C5419 /* ID@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ID@2x.png"; path = "Images/ID@2x.png"; sourceTree = "<group>"; };
+		C14DF56A15DD8BDE001D3C53 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C14DF56B15DD8BDE001D3C53 /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
+		C14DF57015DD8D5B001D3C53 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C150087A15E424E4005BF9C0 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		C150087C15E42501005BF9C0 /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
+		C188375815E56F78002BDD6F /* FullStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FullStar.png; sourceTree = "<group>"; };
+		CBA9F14E12F76264005BB61E /* geomem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geomem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA9F15212F76264005BB61E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CBA9F15412F76264005BB61E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBA9F15612F76264005BB61E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CBA9F15A12F76264005BB61E /* GeoMem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoMem-Info.plist"; sourceTree = "<group>"; };
+		CBA9F15C12F76264005BB61E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBA9F15E12F76264005BB61E /* GeoMem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoMem-Prefix.pch"; sourceTree = "<group>"; };
+		CBA9F15F12F76264005BB61E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBA9F16112F76264005BB61E /* RegionsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegionsAppDelegate.h; sourceTree = "<group>"; };
+		CBA9F16212F76264005BB61E /* RegionsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegionsAppDelegate.m; sourceTree = "<group>"; };
+		CBA9F16512F76264005BB61E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CBA9F16712F76264005BB61E /* RegionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegionsViewController.h; sourceTree = "<group>"; };
+		CBA9F16812F76264005BB61E /* RegionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegionsViewController.m; sourceTree = "<group>"; };
+		CBA9F16B12F76264005BB61E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RegionsViewController.xib; sourceTree = "<group>"; };
+		CBA9F17212F7628B005BB61E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CBA9F17412F76292005BB61E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CBA9F17912F763D8005BB61E /* RegionAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionAnnotation.h; sourceTree = "<group>"; };
+		CBA9F17A12F763D8005BB61E /* RegionAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionAnnotation.m; sourceTree = "<group>"; };
+		CBA9F17B12F763D8005BB61E /* RegionAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionAnnotationView.h; sourceTree = "<group>"; };
+		CBA9F17C12F763D8005BB61E /* RegionAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionAnnotationView.m; sourceTree = "<group>"; };
+		CBBE14E212F914B70065507D /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Images/Icon-72.png"; sourceTree = "<group>"; };
+		CBBE14E312F914B70065507D /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Images/Icon-Small-50.png"; sourceTree = "<group>"; };
+		CBBE14E412F914B70065507D /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Images/Icon-Small.png"; sourceTree = "<group>"; };
+		CBBE14E512F914B70065507D /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Images/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		CBBE14E612F914B70065507D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Images/Icon.png; sourceTree = "<group>"; };
+		CBBE14E712F914B70065507D /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Images/Icon@2x.png"; sourceTree = "<group>"; };
+		CBBE14E812F914B70065507D /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Images/iTunesArtwork; sourceTree = "<group>"; };
+		CBBE14E912F914B70065507D /* RemoveRegion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RemoveRegion.png; path = Images/RemoveRegion.png; sourceTree = "<group>"; };
+		CBBE14EA12F914B70065507D /* RemoveRegion@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "RemoveRegion@2x.png"; path = "Images/RemoveRegion@2x.png"; sourceTree = "<group>"; };
+		CBBF867212FB498900508BCE /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ReadMe.txt; path = ../ReadMe.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBA9F14B12F76264005BB61E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10E819915E28ED200B4507F /* CoreData.framework in Frameworks */,
+				CBA9F17512F76292005BB61E /* MapKit.framework in Frameworks */,
+				CBA9F17312F7628B005BB61E /* CoreLocation.framework in Frameworks */,
+				CBA9F15312F76264005BB61E /* UIKit.framework in Frameworks */,
+				CBA9F15512F76264005BB61E /* Foundation.framework in Frameworks */,
+				CBA9F15712F76264005BB61E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBA9F14312F76263005BB61E = {
+			isa = PBXGroup;
+			children = (
+				CBA9F15812F76264005BB61E /* Regions */,
+				CBA9F15112F76264005BB61E /* Frameworks */,
+				CBA9F14F12F76264005BB61E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBA9F14F12F76264005BB61E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBA9F14E12F76264005BB61E /* geomem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBA9F15112F76264005BB61E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C10E819815E28ED200B4507F /* CoreData.framework */,
+				CBA9F17412F76292005BB61E /* MapKit.framework */,
+				CBA9F17212F7628B005BB61E /* CoreLocation.framework */,
+				CBA9F15212F76264005BB61E /* UIKit.framework */,
+				CBA9F15412F76264005BB61E /* Foundation.framework */,
+				CBA9F15612F76264005BB61E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBA9F15812F76264005BB61E /* Regions */ = {
+			isa = PBXGroup;
+			children = (
+				C100DEEE15DD3797009ABB66 /* LocationController.h */,
+				C100DEEF15DD3797009ABB66 /* LocationController.m */,
+				CBBF867212FB498900508BCE /* ReadMe.txt */,
+				C13B218C15DD9A47005E428D /* MyCircle.h */,
+				C13B218D15DD9A47005E428D /* MyCircle.m */,
+				CBA9F16112F76264005BB61E /* RegionsAppDelegate.h */,
+				CBA9F16212F76264005BB61E /* RegionsAppDelegate.m */,
+				CBA9F16412F76264005BB61E /* MainWindow.xib */,
+				CBA9F16712F76264005BB61E /* RegionsViewController.h */,
+				CBA9F16812F76264005BB61E /* RegionsViewController.m */,
+				CBA9F16A12F76264005BB61E /* RegionsViewController.xib */,
+				CBA9F17912F763D8005BB61E /* RegionAnnotation.h */,
+				CBA9F17A12F763D8005BB61E /* RegionAnnotation.m */,
+				CBA9F17B12F763D8005BB61E /* RegionAnnotationView.h */,
+				CBA9F17C12F763D8005BB61E /* RegionAnnotationView.m */,
+				CBA9F15912F76264005BB61E /* Supporting Files */,
+				C10E819515E28E3400B4507F /* StoredLocation.h */,
+				C10E819615E28E3400B4507F /* StoredLocation.m */,
+			);
+			path = Regions;
+			sourceTree = "<group>";
+		};
+		CBA9F15912F76264005BB61E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C150087C15E42501005BF9C0 /* search@2x.png */,
+				C150087A15E424E4005BF9C0 /* search.png */,
+				C140FB7E15DE9BC9004C5419 /* ID.png */,
+				C188375815E56F78002BDD6F /* FullStar.png */,
+				C140FB7F15DE9BC9004C5419 /* ID@2x.png */,
+				C14DF56A15DD8BDE001D3C53 /* Default@2x.png */,
+				C14DF57015DD8D5B001D3C53 /* Default.png */,
+				C14DF56B15DD8BDE001D3C53 /* Default~ipad.png */,
+				CBBE14E212F914B70065507D /* Icon-72.png */,
+				CBBE14E312F914B70065507D /* Icon-Small-50.png */,
+				CBBE14E412F914B70065507D /* Icon-Small.png */,
+				CBBE14E512F914B70065507D /* Icon-Small@2x.png */,
+				CBBE14E612F914B70065507D /* Icon.png */,
+				CBBE14E712F914B70065507D /* Icon@2x.png */,
+				CBBE14E812F914B70065507D /* iTunesArtwork */,
+				CBBE14E912F914B70065507D /* RemoveRegion.png */,
+				CBBE14EA12F914B70065507D /* RemoveRegion@2x.png */,
+				CBA9F15A12F76264005BB61E /* GeoMem-Info.plist */,
+				CBA9F15B12F76264005BB61E /* InfoPlist.strings */,
+				CBA9F15E12F76264005BB61E /* GeoMem-Prefix.pch */,
+				CBA9F15F12F76264005BB61E /* main.m */,
+				C10E819215E28DAD00B4507F /* Model.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBA9F14D12F76264005BB61E /* GeoMem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA9F16F12F76264005BB61E /* Build configuration list for PBXNativeTarget "GeoMem" */;
+			buildPhases = (
+				CBA9F14A12F76264005BB61E /* Sources */,
+				CBA9F14B12F76264005BB61E /* Frameworks */,
+				CBA9F14C12F76264005BB61E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoMem;
+			productName = Regions;
+			productReference = CBA9F14E12F76264005BB61E /* geomem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBA9F14512F76263005BB61E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Apple Inc.";
+			};
+			buildConfigurationList = CBA9F14812F76263005BB61E /* Build configuration list for PBXProject "GeoMem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CBA9F14312F76263005BB61E;
+			productRefGroup = CBA9F14F12F76264005BB61E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBA9F14D12F76264005BB61E /* GeoMem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBA9F14C12F76264005BB61E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA9F15D12F76264005BB61E /* InfoPlist.strings in Resources */,
+				CBA9F16612F76264005BB61E /* MainWindow.xib in Resources */,
+				CBA9F16C12F76264005BB61E /* RegionsViewController.xib in Resources */,
+				CBBE14EC12F914B70065507D /* Icon-72.png in Resources */,
+				CBBE14ED12F914B70065507D /* Icon-Small-50.png in Resources */,
+				CBBE14EE12F914B70065507D /* Icon-Small.png in Resources */,
+				CBBE14EF12F914B70065507D /* Icon-Small@2x.png in Resources */,
+				CBBE14F012F914B70065507D /* Icon.png in Resources */,
+				CBBE14F112F914B70065507D /* Icon@2x.png in Resources */,
+				CBBE14F212F914B70065507D /* iTunesArtwork in Resources */,
+				CBBE14F312F914B70065507D /* RemoveRegion.png in Resources */,
+				CBBE14F412F914B70065507D /* RemoveRegion@2x.png in Resources */,
+				CBBF867312FB498900508BCE /* ReadMe.txt in Resources */,
+				C14DF56D15DD8BDE001D3C53 /* Default@2x.png in Resources */,
+				C14DF56E15DD8BDE001D3C53 /* Default~ipad.png in Resources */,
+				C14DF57115DD8D5B001D3C53 /* Default.png in Resources */,
+				C140FB8015DE9BC9004C5419 /* ID.png in Resources */,
+				C140FB8115DE9BC9004C5419 /* ID@2x.png in Resources */,
+				C150087B15E424E5005BF9C0 /* search.png in Resources */,
+				C150087D15E42501005BF9C0 /* search@2x.png in Resources */,
+				C188375915E56F78002BDD6F /* FullStar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBA9F14A12F76264005BB61E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA9F16012F76264005BB61E /* main.m in Sources */,
+				CBA9F16312F76264005BB61E /* RegionsAppDelegate.m in Sources */,
+				CBA9F16912F76264005BB61E /* RegionsViewController.m in Sources */,
+				CBA9F17D12F763D8005BB61E /* RegionAnnotation.m in Sources */,
+				CBA9F17E12F763D8005BB61E /* RegionAnnotationView.m in Sources */,
+				C100DEF015DD3797009ABB66 /* LocationController.m in Sources */,
+				C13B218E15DD9A47005E428D /* MyCircle.m in Sources */,
+				C10E819415E28DAD00B4507F /* Model.xcdatamodeld in Sources */,
+				C10E819715E28E3400B4507F /* StoredLocation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBA9F15B12F76264005BB61E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA9F15C12F76264005BB61E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CBA9F16412F76264005BB61E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA9F16512F76264005BB61E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CBA9F16A12F76264005BB61E /* RegionsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA9F16B12F76264005BB61E /* en */,
+			);
+			name = RegionsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1449F6415DEE1CB0086581B /* InHouse */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = InHouse;
+		};
+		C1449F6515DEE1CB0086581B /* InHouse */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_ID = geomem;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COMPANY = starkey;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Regions/GeoMem-Prefix.pch";
+				INFOPLIST_FILE = "Regions/GeoMem-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = geomem;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = InHouse;
+		};
+		CBA9F16D12F76264005BB61E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBA9F16E12F76264005BB61E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CBA9F17012F76264005BB61E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_ID = geomem;
+				COMPANY = starkey;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Regions/GeoMem-Prefix.pch";
+				INFOPLIST_FILE = "Regions/GeoMem-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = geomem;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CBA9F17112F76264005BB61E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_ID = geomem;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMPANY = starkey;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Regions/GeoMem-Prefix.pch";
+				INFOPLIST_FILE = "Regions/GeoMem-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = geomem;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBA9F14812F76263005BB61E /* Build configuration list for PBXProject "GeoMem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA9F16D12F76264005BB61E /* Debug */,
+				CBA9F16E12F76264005BB61E /* Release */,
+				C1449F6415DEE1CB0086581B /* InHouse */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA9F16F12F76264005BB61E /* Build configuration list for PBXNativeTarget "GeoMem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA9F17012F76264005BB61E /* Debug */,
+				CBA9F17112F76264005BB61E /* Release */,
+				C1449F6515DEE1CB0086581B /* InHouse */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C10E819215E28DAD00B4507F /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C10E819315E28DAD00B4507F /* Model.xcdatamodel */,
+			);
+			currentVersion = C10E819315E28DAD00B4507F /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CBA9F14512F76263005BB61E /* Project object */;
+}

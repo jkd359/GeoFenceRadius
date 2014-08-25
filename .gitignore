@@ -1,0 +1,4 @@
+*.ipa
+*.xcsettings
+project.xcworkspace/
+xcuserdata/
